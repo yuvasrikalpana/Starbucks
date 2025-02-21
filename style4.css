@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.bar{
+    background-color:rgb(238, 245, 238);    
+    color:white;
+   
+}
+.bar,li{
+    text-decoration: none;
+    
+}
+li,a{
+    list-style: none;
+    a{
+        text-decoration: none;
+        
+    }
+    &:hover{
+        cursor: pointer;
+       color: green;
+    }
+}
+.li,ul,nav{
+    display: flex;
+    gap:  50px;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 10%;
+    padding-right: 20%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:x-large;
+    text-decoration: none;
+    &:hover{
+        cursor: pointer;
+       color: white;
+       
+    }
+}
+.sign{
+    padding-left: 70%;
+}
+.large{
+    position: relative;
+}
+.big{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(48, 46, 46);
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+    
+    .text{
+        height: 200px;
+        width: 600px;
+        background-color: green;
+        margin-left: 300px;
+        color: white;
+        padding-left: 20px;
+        padding-top: 10px;
+        
+    }
+    button{
+        margin-left: 80%;
+        height: 40px;
+        width: 80px;
+        border-radius: 10px;
+        &:hover{
+            cursor: pointer;
+            background-color: rgb(197, 245, 197);
+            color: black;
+        }
+    }
+    
+}
+.child{
+    padding-top: 50px;
+    
+   
+}
+.special{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding-bottom: 50px;
+    
+}
+.photo{
+    &:hover{
+        transform: scale(1.1);
+        transform: skew(1.1);
+    }
+}
+
+.pop{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    background-color: rgb(2, 49, 2);
+    color: white;
+    padding-bottom: 20px;
+    height: 700px;
+}
+
+ .footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.footer p{
+    padding-left: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.mail span{
+    margin-right: 70px;
+    text-align: center;
+   margin-bottom: 50px;
+   padding-bottom: 0;
+    gap: 20px;
+    &:hover{
+        cursor: pointer;
+    }
+}

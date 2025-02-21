@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.bar{
+    background-color:rgb(238, 245, 238);    
+    color:white;
+   
+}
+.bar,li{
+    text-decoration: none;
+    
+}
+li,a{
+    list-style: none;
+    a{
+        text-decoration: none;
+        
+    }
+    &:hover{
+        cursor: pointer;
+       color: green;
+    }
+}
+.li,ul,nav{
+    display: flex;
+    gap:  50px;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 10%;
+    padding-right: 20%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:x-large;
+    text-decoration: none;
+    &:hover{
+        cursor: pointer;
+       color: white;
+       
+    }
+}
+.sign{
+    padding-left: 70%;
+
+}
+
+.main{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:30px;
+   width: 200px;
+    &:hover{
+        background-color:rgb(207, 248, 207);
+    color: black;
+    cursor: pointer;
+    }
+}
+.card{
+    text-align: center;
+    row-gap: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    background-color:  rgb(240, 237, 237);
+    padding-bottom: 50px;
+}
+.main{
+   
+    width: 300px;
+}
+.main img{
+    height: 200px;
+    width: 100px;
+    padding-top: 50px;
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+}
+.main button{
+    border-radius: 10px;
+    border: 30px;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: x-large;
+     padding-top: 5px;
+     &:hover{
+        color:black;
+        background-color: rgb(81, 240, 81);
+        
+        
+     }
+}
+.food img{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    &:hover{
+        transform: scale(1.5);
+        cursor: pointer;
+    }
+  
+    
+}
+.item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(236, 236, 236);
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+h1{
+    margin-left: 50px;
+}
+.commends{
+    text-align: center;
+    row-gap: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 40px;
+    
+
+}
+.commends img{
+    height: 300px;
+    width: 200px;
+    padding-top: 5px;
+
+    
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+}
+.commends button{
+    border-radius: 10px;
+    border: 30px;
+     font-family: 'Times New Roman', Times, serif;
+     font-size:medium;
+     padding-top: 5px;
+     &:hover{
+        color: black;
+        background-color: rgb(241, 223, 241);
+        cursor: pointer;
+        
+     }
+}
+.commends span{
+    text-align: left;
+    padding-right: 20px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.commends{
+    background-color: rgb(250, 248, 248);
+}
+
+.img h2{
+    text-align: center;
+}
+div.cafe{
+    text-align: center;
+    
+}
+
+
+.art h3{
+   
+    text-align: center;
+    
+}
+.pop{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    background-color: rgb(2, 49, 2);
+    color: white;
+    padding-bottom: 20px;
+    height: 700px;
+}
+
+ .footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.footer p{
+    padding-left: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.mail span{
+    margin-right: 70px;
+    text-align: center;
+   margin-bottom: 50px;
+   padding-bottom: 0;
+    gap: 20px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+
+
